@@ -131,27 +131,42 @@
             </div>
         </div>
 
-        <div class="flex rounded bg-gray-50 h-28 dark:bg-gray-800">
-            <p class="text-2xl text-gray-400 dark:text-gray-500">
-                <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+        <div class="flex items-center rounded bg-gray-50 h-28 dark:bg-gray-800 shadow-md hover:shadow-lg transition duration-300 transform hover:scale-105">
+            <div class="flex items-center justify-center w-16 h-16 bg-blue-500 rounded-full">
+                <svg class="w-8 h-8 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16" />
                 </svg>
-            </p>
+            </div>
+            <div class="ml-4">
+                <p class="text-2xl text-gray-700 dark:text-gray-300 font-semibold">Total Employees</p>
+                <p class="text-lg text-gray-500 dark:text-gray-400">250</p>
+            </div>
         </div>
-        <div class="flex rounded bg-gray-50 h-28 dark:bg-gray-800">
-            <p class="text-2xl text-gray-400 dark:text-gray-500">
-                <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+
+        <div class="flex items-center rounded bg-gray-50 h-28 dark:bg-gray-800 shadow-md hover:shadow-lg transition duration-300 transform hover:scale-105">
+            <div class="flex items-center justify-center w-16 h-16 bg-green-500 rounded-full">
+                <svg class="w-8 h-8 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16" />
                 </svg>
-            </p>
+            </div>
+            <div class="ml-4">
+                <p class="text-2xl text-gray-700 dark:text-gray-300 font-semibold">Total Leaves</p>
+                <p class="text-lg text-gray-500 dark:text-gray-400">30</p>
+            </div>
         </div>
-        <div class="flex rounded bg-gray-50 h-28 dark:bg-gray-800">
-            <p class="text-2xl text-gray-400 dark:text-gray-500">
-                <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+
+        <div class="flex items-center rounded bg-gray-50 h-28 dark:bg-gray-800 shadow-md hover:shadow-lg transition duration-300 transform hover:scale-105">
+            <div class="flex items-center justify-center w-16 h-16 bg-red-500 rounded-full">
+                <svg class="w-8 h-8 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16" />
                 </svg>
-            </p>
+            </div>
+            <div class="ml-4">
+                <p class="text-2xl text-gray-700 dark:text-gray-300 font-semibold">Total Tasks</p>
+                <p class="text-lg text-gray-500 dark:text-gray-400">15</p>
+            </div>
         </div>
+
     </div>
     <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
         <p class="text-2xl text-gray-400 dark:text-gray-500">
