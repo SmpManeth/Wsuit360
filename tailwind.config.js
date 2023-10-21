@@ -15,8 +15,11 @@ export default {
             fontFamily: {
                 sans: ["Figtree", ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                "light-red": "#BF3100",
+            },
         },
     },
 
-    plugins: [require('flowbite/plugin'),forms],
+    plugins: [require("flowbite/plugin"), forms],
 };
